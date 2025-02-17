@@ -1,0 +1,1224 @@
+{
+    "high school": {
+        "lecture 1": {
+            "q1": {
+                "contents": "Which of the following three concepts appeared first? <please select the best answer> A. Artificial Intelligence B. Machine Learning C. Deep Learning",
+                "slide": 5,
+                "correct_answer": "A"
+            },
+            "q2": {
+                "contents": "Which of the following two concepts means 'learning by generating rules from known facts'? <please select the best answer> A. Deduction B. Induction",
+                "slide": 8,
+                "correct_answer": "B"
+            },
+            "q3": {
+                "contents": "Which of the three ways of learning requires all input data to be paired with correct answers? <please select the best answer> A. Supervised learning B. Unsupervised learning C. Reinforcement learning",
+                "slide": 21,
+                "correct_answer": "A"
+            },
+            "q4": {
+                "contents": "Which of the three ways of learning is sometimes the only way we can use? <please select the best answer> A. Supervised learning B. Unsupervised learning C. Reinforcement learning",
+                "slide": 23,
+                "correct_answer": "C"
+            },
+            "q5": {
+                "contents": "What are the three components of AI? <please input your answer>",
+                "slide": 2,
+                "correct_answer": "Logic, statistics, ANNs"
+            },
+            "q6": {
+                "contents": "The probability that the number of dice rolls is 1 is? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "1/6"
+            },
+            "q7": {
+                "contents": "What are the cells in the brain that are used for thinking called? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "Neurons"
+            },
+            "q8": {
+                "contents": "What are the connections between the cells in the brains called? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "Synapses"
+            },
+            "q9": {
+                "contents": "The sum of three angles of any triangle is 180 degrees. A right triangle is a triangle. What can you conclude from these? <please input your answer>",
+                "slide": 9,
+                "correct_answer": "The sum of the three angles of a right triangle is 180 degrees"
+            },
+            "q10": {
+                "contents": "We have known 10% of patients have liver disease, and 5% of the patients are alcoholics. And we know that among those patients diagnosed with liver disease, 7% are alcoholics. What is the patient's probability of having liver disease if they are an alcoholic? <please input your answer>",
+                "slide": 7,
+                "correct_answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14"
+            }
+        },
+        "lecture 2": {
+            "q1": {
+                "contents": "The reticular theory was advocated by physician Camillo Golgi, who invented a groundbreaking method for observing the nervous system. <please select the best answer> True or False",
+                "slide": 3,
+                "correct_answer": "T"
+            },
+            "q2": {
+                "contents": "For an AND logic gate, if the inputs are '0' and '1', then the output is 1. <please select the best answer> True or False",
+                "slide": 5,
+                "correct_answer": "F"
+            },
+            "q3": {
+                "contents": "For an OR logic gate, if the inputs are '0' and '1', then the output is 1. <please select the best answer> True or False",
+                "slide": 5,
+                "correct_answer": "T"
+            },
+            "q4": {
+                "contents": "Frank Rosenblatt came up with the first learning theory. <please select the best answer> True or False",
+                "slide": 8,
+                "correct_answer": "F"
+            },
+            "q5": {
+                "contents": "The first neural networks winter is because of that training ANNs takes a lot of computation and computing power was limited in that era. <please select the best answer> True or False",
+                "slide": 10,
+                "correct_answer": "F"
+            },
+            "q6": {
+                "contents": "For the current state of ANNs, it is easy to interpret what ANNs are doing. <please select the best answer> True or False",
+                "slide": 17,
+                "correct_answer": "F"
+            },
+            "q7": {
+                "contents": "ANNs of the current state don't have a good generalization. <please select the best answer> True or False",
+                "slide": 17,
+                "correct_answer": "T"
+            },
+            "q8": {
+                "contents": "McCulloch and Pitts found what to be like the basic building block that can be used to build any complex logical circuits? <please input your answer>",
+                "slide": 6,
+                "correct_answer": "Neuron"
+            },
+            "q9": {
+                "contents": "When two neurons get excited together, what is increased? The input, the output, or the connection strength? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "The connection strength"
+            },
+            "q10": {
+                "contents": "What is the algorithm that contributed to the end of the first neural network winter? <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Backpropagation"
+            }
+        },
+        "lecture 3": {
+            "q1": {
+                "contents": "Which of the following learning methods involves learning from a teacher? <please select the answer> A. Unsupervised learning B. Supervised learning C. Reinforcement learning ",
+                "slide": 2,
+                "correct_answer": "BC"
+            },
+            "q2": {
+                "contents": "Which of the following options are required to determine the change of one connection in the delta rule? <please select the answer> A. learning constant B. desired change C. input D. connection weight",
+                "slide": 5,
+                "correct_answer": "ABC"
+            },
+            "q3": {
+                "contents": "If the desired change is positive, and the input is -1, will the weight decrease or increase? <please select the best answer> A. decrease B. increase",
+                "slide": 12,
+                "correct_answer": "A"
+            },
+            "q4": {
+                "contents": "After many iterations of learning, what value does the output of the '+' artificial neuron in response to 'x' become closer to? <please select the best answer> A. 1.0 B. 0.0 C. 1.5 D. -1.0",
+                "slide": 16,
+                "correct_answer": "B"
+            },
+            "q5": {
+                "contents": "If the input of a single-layer ANN model is 1,0,1; and the weight of inputs is 0.1, 0.2, 0.3; what is the output of the single-layer ANN model? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "0.4"
+            },
+            "q6": {
+                "contents": "If the target output is 0.5 and the computed output is 0.3, what would the desired change be? <please input your answer>",
+                "slide": 5,
+                "correct_answer": "0.2"
+            },
+            "q7": {
+                "contents": "Let the learning constant be 0.2, the desired change to be 0.3, and the input to be 1, then the change of weight will be? <please select the best answer> A. 0.02 B. 0.04 C. 0.05 D. 0.06",
+                "slide": 5,
+                "correct_answer": "D"
+            },
+            "q8": {
+                "contents": "If the inner state is -1, what will the output be after the ReLU (Rectified Linear Unit)? <please select the best answer> A. -1 B. 0 C. 1",
+                "slide": 21,
+                "correct_answer": "B"
+            },
+            "q9": {
+                "contents": "If there is more than one layer of artificial neurons--- that is, if neurons are between the input and the output neurons--- the delta rule can't be used. Why not? Each artificial neuron has computable inputs and an output. What is missing? <please input your answer>",
+                "slide": 5,
+                "correct_answer": "Desired outputs are not given for these 'in between' neurons"
+            },
+            "q10": {
+                "contents": "If supervised learning works, the weight change will become smaller and smaller. Why? <please input your answer>",
+                "slide": 23,
+                "correct_answer": "As the output becomes closer to the desired output, the desired change will become smaller."
+            },
+            "q11": {
+                "contents": "In a supervised ANN, the input is 0.5, the weight is 1, and we use ReLU (Rectified Linear Unit) as the hat of a neuron. The desired output is 1 and we set the learning rate as 0.01. Please calculate the weight change of the process. <please input your answer>",
+                "slide": 22,
+                "correct_answer": "error: 1-(0.5*1)=0.5, weight change: 0.01 *0.5* 1*1 = 0.005"
+            },
+            "q12": {
+                "contents": "What was backpropagation developed to do? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "Train incoming connection weights to middle/non-input layers"
+            }
+        },
+        "lecture 4": {
+            "q1": {
+                "contents": "What do humans use to classify objects, for instance, pictures of fruits? <please input your answer>",
+                "slide": 3,
+                "correct_answer": "features"
+            },
+            "q2": {
+                "contents": "The picture below shows a decision tree, please list three kinds of elements of a decision tree? And please give examples of each node type in this decision tree? Picture: decision tree of weather. <please input your answer>",
+                "slide": 5,
+                "correct_answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)"
+            },
+            "q3": {
+                "contents": "In this form below, which features can we select to decide whether people enjoy tennis? <please select the best answer> A. Outlook B. Temperature C. Humidity D. Wind; Form: table of features and tennis enjoyment",
+                "slide": 6,
+                "correct_answer": "AB"
+            },
+            "q4": {
+                "contents": "In the I-Nearest-Neighbor method, how should we classify a new example? <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Label x with the label of the closest example to x"
+            },
+            "q5": {
+                "contents": "In this image about the process of KNN algorithm, which cluster should Xj be classified to? <please select the best answer> A. Red B. Green C. Blue; Image: KNN algorithm graph",
+                "slide": 14,
+                "correct_answer": "A"
+            },
+            "q6": {
+                "contents": "Please describe how the effect of the KNN algorithm changes as k increases from 1. What kind of problems will occur when K is too small and when K is too large? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "K is too small: overfit K is too big: underfit"
+            }
+        },
+        "lecture 5": {
+            "q1": {
+                "contents": "What is the data given during supervised learning but not in unsupervised learning? <please select the best answer> A. Input B. Connection weight C. Desirable output",
+                "slide": 3,
+                "correct_answer": "C"
+            },
+            "q2": {
+                "contents": "If the unsupervised ANNs that are given images of apples and images of oranges learn to group them into apples and oranges, which feature is useful? <please select the best answer> A. Colors B. Round C. Shiny",
+                "slide": 7,
+                "correct_answer": "A"
+            },
+            "q3": {
+                "contents": "For an SOFM, if the input pattern is [0.2, -0.1, 0.3, 0.2, 0.91], the neuron with which weight has the largest activation? <please select the best answer> A. [0.2, 0.1, 0.3, 0.2, 0.91] B. [0.2, -0.1, 0.5, 0.2, 0.69] C. [-0.5, 0.5, 0.3, 0.2, -0.61]",
+                "slide": 16,
+                "correct_answer": "A"
+            },
+            "q4": {
+                "contents": "True or false: 'In the application of unsupervised learning, unsupervised learning can determine what is illegal.' <please select the best answer> True or False",
+                "slide": 4,
+                "correct_answer": "False"
+            },
+            "q5": {
+                "contents": "In the process of using unsupervised learning to classify pictures of bananas and pictures of apples, which of the following features do you think is/are useful? Multiple answers can be chosen. <please select the answer> A. Color B. Shape C. Ear",
+                "slide": 8,
+                "correct_answer": "AB"
+            },
+            "q6": {
+                "contents": "In the process of SOFM learning, how will the radius change? <please select the best answer> A. Shrink B. Expand",
+                "slide": 15,
+                "correct_answer": "A"
+            },
+            "q7": {
+                "contents": "In the first step of the SOFM learning, why can we set the weight to be random without affecting the result? <please input your answer>",
+                "slide": 19,
+                "correct_answer": "The initial neighbor size will cover the entire plane."
+            },
+            "q8": {
+                "contents": "How can an SOFM place similar inputs? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "Similar inputs are placed in nearby locations."
+            },
+            "q9": {
+                "contents": "In an SOFM, what happens to the map if one kind of input is given more frequently than others? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "The corresponding area becomes larger."
+            },
+            "q10": {
+                "contents": "Please give an example of a self-organized structure. <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Primary sensory area, or primary visual cortex"
+            }
+        },
+        "lecture 6": {
+            "q1": {
+                "contents": "In an ART network, resonance is introduced to realize stable category formation. Resonance is established between which two layers? <please select the best answer> A. Input layer B. Interface layer C. Category layer",
+                "slide": 6,
+                "correct_answer": "BC"
+            },
+            "q2": {
+                "contents": "In an ART network, the input layer sends signals to the interface layer through ____. <please select the best answer> A. one-to-one connections B. full connections",
+                "slide": 6,
+                "correct_answer": "A"
+            },
+            "q3": {
+                "contents": "In an ART network, the interface layer activates the category layer through ____. <please select the best answer> A. one-to-one connections B. full connections",
+                "slide": 6,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "Please write another name for “grouping” in unsupervised learning. <please input your answer>",
+                "slide": 3,
+                "correct_answer": "cluster/classification"
+            },
+            "q5": {
+                "contents": "Which person created Adaptive resonance theory1 (ART1)? <please select the best answer> A. David Hubel B. Stephen Grossberg C. Teuvo Kohonen",
+                "slide": 4,
+                "correct_answer": "B"
+            },
+            "q6": {
+                "contents": "The unsupervised ANN that can compress usually has a middle layer that has a much ____ number of neurons. <please select the best answer> A. larger B. smaller",
+                "slide": 16,
+                "correct_answer": "B"
+            },
+            "q7": {
+                "contents": "True or False: The k center points are selected from sample points.<please select the best answer> True or False",
+                "slide": 9,
+                "correct_answer": "F"
+            },
+            "q8": {
+                "contents": "True or False: The clustering of K-means is that for each sample point, find the closest center point to it. <please select the best answer> True or False",
+                "slide": 10,
+                "correct_answer": "T"
+            },
+            "q9": {
+                "contents": "True or False: After each clustering, there is no need to recalculate the center points. <please select the best answer> True or False",
+                "slide": 12,
+                "correct_answer": "F"
+            },
+            "q10": {
+                "contents": "What is the end condition of the K-means algorithm? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "The categories of sample points before and after the clustering are the same"
+            }
+        },
+        "lecture 7": {
+            "q1": {
+                "contents": "True or False: Reinforcement learning gets inputs as well as produces outputs? <please select the best answer> A. True   B. False",
+                "slide": 5,
+                "correct_answer": "A"
+            },
+            "q2": {
+                "contents": "In reinforcement learning, which two kinds of response does the agent get from its environment? <please select the best answer> A. Action, Reward B. Value, State C. Action, Value D. State, Reward",
+                "slide": 5,
+                "correct_answer": "D"
+            },
+            "q3": {
+                "contents": "Please select one of the following which falls into the framework of reinforcement learning. <please select the best answer> A. A computer calculates the digits of π, a mathematical constant which is close to 3.14. B. A neural network learns to distinguish images with known categories as cars or bicycles. C. An autonomous car tries to adapt to changing road conditions without causing accidents. D. A software collects user information and provides personalized recommendations automatically.",
+                "slide": 4,
+                "correct_answer": "C"
+            },
+            "q4": {
+                "contents": "In the game Pac-Man, the pac-man aims to eat as many beans in the maze as possible without getting caught by the ghosts (blue and pink avatars in the picture). A picture of the game Pac-Man. What is the agent of this game? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "pac-man"
+            },
+            "q5": {
+                "contents": "In the game Pac-Man, the pac-man aims to eat as many beans in the maze as possible without getting caught by the ghosts (blue and pink avatars in the picture). A picture of the game Pac-Man. What is the state of this game? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "location"
+            },
+            "q6": {
+                "contents": "If the value (V) in the current state is only indicated by the current reward (r), what is the relationship between them if we consider the future effect but a consistent reward (i.e. the reward does not change for a state)? <please select the best answer> A. V = r B. V = V_old + 0.1 * (r - V_old) C. V = 0.1 * (r + 0.5 * V_next) D. V = V_old + 0.1 * ((r + 0.5 * V_next) - V_old)",
+                "slide": 19,
+                "correct_answer": "C"
+            },
+            "q7": {
+                "contents": "In the formula V = V_old + α * ((r + g * V_next) - V_old), why do we introduce g? <please input your answer>",
+                "slide": 19,
+                "correct_answer": "the degree of the effect of the future situation"
+            },
+            "q8": {
+                "contents": "An agent receives 3 different rewards from the same state in 3 attempts. The 3 rewards are 20, 40, 45 respectively. Please use the formula V = Vold + 0.5 ✕ (r - Vold) and the initial V as 0 (Hint: Vold is 0 in the first calculation.) to calculate the final V of this state. <please input your answer>",
+                "slide": 17,
+                "correct_answer": "35"
+            },
+            "q9": {
+                "contents": "An agent is at state (1,1). The possible next states are (1,2), (2,1) and (2,2). We have a lookup dictionary as follows. Which of the following is the V_next? A table of State (1,1), (1,2), (2,1), (2,2) with Value 10, 25, -10, 30 respectively. <please select the best answer> A. 10 B. 25 C.-10 D.30",
+                "slide": 16,
+                "correct_answer": "D"
+            },
+            "q10": {
+                "contents": "If a problem or a game has a lot of states, like the Go game, then we will need a neural network. What relationship do we expect the neural network to capture? <please select the best answer> A. The reward an agent receive after action  B. The value of a given state of the environment C. The action to take under a state of the environment D. The next state of the environment after agent takes an action",
+                "slide": 20,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 8": {
+            "q1": {
+                "contents": "True or False: The “reward” in the V-Learning means the total reward that an agent can expect to collect from that state and onwards into the future. <please select the best answer> A. True   B. False",
+                "slide": 3,
+                "correct_answer": "B"
+            },
+            "q2": {
+                "contents": "Both V-learning and Q-learning determine how good the new state is , but Q-learning learns the evaluation specific to something in addition to the state. What is it? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Action"
+            },
+            "q3": {
+                "contents": "Q-Table is the main aim of steps of Q-Learning. Q-table records the long rewards for? <please select the best answer> A. different actions B. different states C. different actions taken in each state",
+                "slide": 6,
+                "correct_answer": "C"
+            },
+            "q4": {
+                "contents": "If the value in the current state is only indicated by the current reward, but reward (r) is not always consistent, which of these formulas should we use to calculate Q value? <please select the best answer> A. Q=r B. Q_new = Q_old + 0.1*(r-Q_old) C. Q_old + 0.1* ((r+0.5*Q_next)-Q_old)",
+                "slide": 9,
+                "correct_answer": "B"
+            },
+            "q5": {
+                "contents": "The Society of Automotive Engineers (SAE) currently defines 6 levels of driving automation. Please describe the main difference between Level 0-2 and Level 3-5? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment."
+            },
+            "q6": {
+                "contents": "Can you name one issue or challenge that involves autonomous cars? <please input your answer>",
+                "slide": 20,
+                "correct_answer": "The responsibility for crashes or something else that applies or some else"
+            },
+            "q7": {
+                "contents": "Autonomous cars are under the framework. Please list some kinds of “environments” and “actions” in the situation of autonomous cars? <please input your answer>",
+                "slide": 16,
+                "correct_answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left"
+            },
+            "q8": {
+                "contents": "Which kind of sensors bounce pulses of light off the car’s surroundings to measure distances? <please select the best answer> A. Radar sensors B. Video cameras C. Lidar sensors D. Ultrasonic sensors",
+                "slide": 18,
+                "correct_answer": "C"
+            },
+            "q9": {
+                "contents": "An agent is at state (1,1), and the Q-table is as follows. Which of the actions should the agent take? Content of Q-table: The rewards of action going right/left/up/down at state (1,1) are 10,25,-10,30 respectively. The rewards of action going right/left/up/down at state (1,2) are 20,-10,15,25 respectively. The rewards of action going right/left/up/down at state (2,1) are 30,10,15,-10 respectively. The rewards of action going right/left/up/down at state (2,2) are 25,30,10,-10 respectively. <please select the best answer> A. going right B. going left C. going up D. going down",
+                "slide": 25,
+                "correct_answer": "D"
+            },
+            "q10": {
+                "contents": "About how to choose action in the initial state, which of the approaches aim to collect the most reward you already know about? <please select the best answer> A. Exploration   B. Exploitation",
+                "slide": 11,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 9": {
+            "q1": {
+                "contents": "What is the first main component of a virtual assistant? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Speech recognition"
+            },
+            "q2": {
+                "contents": "What is the last main component of a virtual assistant? <please input your answer>",
+                "slide": 23,
+                "correct_answer": "Speech recognition"
+            },
+            "q3": {
+                "contents": "Please cite a component of voice-controlled assistant that it needs for normal work. <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Linguistic analysis / Database / Web content retrieval"
+            },
+            "q4": {
+                "contents": "Is the accuracy of 95% enough for voice recognition? <please input your answer>",
+                "slide": 6,
+                "correct_answer": "No"
+            },
+            "q5": {
+                "contents": "How are the words represented in an ANN? <please input your answer>",
+                "slide": 10,
+                "correct_answer": "Assigning different neurons to different words"
+            },
+            "q6": {
+                "contents": "Take five words {Cats, Dogs, bark, meow, eat} Take three sentences, “Dogs bark” “Cats eat” “Dogs eat” How to express the words after the “Dogs”? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "(0,0,1,0,1)"
+            },
+            "q7": {
+                "contents": "What does an RNN have that a simple three-layer neural network doesn’t have? <please input your answer>",
+                "slide": 14,
+                "correct_answer": "A loop"
+            },
+            "q8": {
+                "contents": "What should we do when we want to train an RNN? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "Unfolding"
+            },
+            "q9": {
+                "contents": "What does LSTM stand for? <please input your answer>",
+                "slide": 16,
+                "correct_answer": "Long Short-Term Memory"
+            },
+            "q10": {
+                "contents": "Compared to regular RNN, LSTM has better control over its three components. What are they? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "The input, the short-term memory, and the output"
+            }
+        },
+        "lecture 10": {
+            "q1": {
+                "contents": "Which of the following options comprises digital images stored in computers? <please select the best answer> A. Pixels B. Frames C. Videos",
+                "slide": 8,
+                "correct_answer": "A"
+            },
+            "q2": {
+                "contents": "What are the three primary colors that computers use to represent other colors introduced in the lecture? <please select the best answer> A. Red, orange and yellow B. Red, green and purple C. Blue, orange and purple D. Red, green and blue",
+                "slide": 9,
+                "correct_answer": "D"
+            },
+            "q3": {
+                "contents": "To train a CNN that tells what is in a picture, what kind of pictures are needed? <please select the best answer> A. Pictures collected from the Internet without further information B. Pictures collected from the Internet with the data captured C. Images collected from the Internet with the geographic information D. Images collected from the Internet with category information",
+                "slide": 12,
+                "correct_answer": "D"
+            },
+            "q4": {
+                "contents": "What does the convolution layer do? <please select the best answer> A. It condenses the output of small regions into a single output B. It slides through the images and sums up the products of numbers C. It mimics the way neurons are only triggered by strong stimuli D. It tells what is in an image based on the information from hidden layers",
+                "slide": 14,
+                "correct_answer": "B"
+            },
+            "q5": {
+                "contents": "The output from a convolution layer is shown below. How many values will be changed after a ReLU layer is applied? The output from a convolution layer: 1, 7, 3, -2, -4, 5, 4, 1, 2. <please select the best answer> A. 0 B. 1 C. 2 D. 3",
+                "slide": 17,
+                "correct_answer": "C"
+            },
+            "q6": {
+                "contents": "If we define a new kind of operation called leaky-ReLU, where values greater than 0 will remain unchanged, but values smaller than 0 will be replaced by 0.1 multiplies the original value. What will be the result if we apply to -10 and 5? <please select the best answer> A. -10, 0.5  B. -10, 5 C. 1, 5 D. -1, 0.5",
+                "slide": 17,
+                "correct_answer": "C"
+            },
+            "q7": {
+                "contents": "The table below is a small region to apply a pooling operation. What is the correct result after max pooling? The region where max pooling is to be applied: 3,9,6,2. <please select the best answer> A. 10 B. 9 C. 6 D. 4",
+                "slide": 18,
+                "correct_answer": "B"
+            },
+            "q8": {
+                "contents": "Recall the operations in a convolution layer. When given an image and a kernel as follows, what is the correct answer for the missing value 'x_1' in the output from the layer?. The image: [[1,1,1,1],[0,0,1,0],[0,1,0,0],[1,0,0,0]]. The kernel: [[0,1],[1,0]]. The output: [[x_1,1,2],[0,x_2,0],[2,0,0]] <please input your answer>",
+                "slide": 15,
+                "correct_answer": "1"
+            },
+            "q9": {
+                "contents": "Recall the operations in a convolution layer. When given an image and a kernel as follows, what is the correct answer for the missing value 'x_2' in the output from the layer?. The image: [[1,1,1,1],[0,0,1,0],[0,1,0,0],[1,0,0,0]]. The kernel: [[0,1],[1,0]]. The output: [[x_1,1,2],[0,x_2,0],[2,0,0]] <please input your answer>",
+                "slide": 15,
+                "correct_answer": "2"
+            },
+            "q10": {
+                "contents": "Consider the original size of an image is 7 by 11. The size of the kernel to be applied is 3 by 3. If the stride is set to 2, what is the size of the output? <please select the best answer> A. 3 by 9 B. 3 by 5 C. 5 by 9 D. 5 by 5",
+                "slide": 16,
+                "correct_answer": "B"
+            },
+            "q11": {
+                "contents": "If the correct category of an image is “train”, which of the following will be considered as correct under the definition of top-3 error? (From the left to the right, the probability of the answer decreases.) <please select the best answer> A. [“plane”, “motorcycle”, “bird”, “snake”, “train”] B. [“plane”, “motorcycle”, “train”, “bird”, “snake”] C. [“motorcycle”, “plane”, “snake”, “train”, “bird”] D. [“motorcycle”, “plane”, “car”, “bird”, “snake”]",
+                "slide": 21,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 11": {
+            "q1": {
+                "contents": "Please give an example of mechanism that neurons do not have but neural networks have? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "backpropagation"
+            },
+            "q2": {
+                "contents": "Why should we watch for developments in neuroscience? Please list one reason. <please input your answer>",
+                "slide": 5,
+                "correct_answer": "There are still areas where people perform much better than AI"
+            },
+            "q3": {
+                "contents": "In graphic models, what does nodes and lines represent? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "numbers/labels, the statistical relationships among them"
+            },
+            "q4": {
+                "contents": "What is the name of the method that enables ANNs to learn from limited examples? <please input your answer>",
+                "slide": 10,
+                "correct_answer": "few shot learning"
+            },
+            "q5": {
+                "contents": "Why it is possible for ANNs to solve the task with very limited data? <please input your answer>",
+                "slide": 14,
+                "correct_answer": "It is possible because it can use the knowledge it already knows."
+            },
+            "q6": {
+                "contents": "In which condition can transfer learning reduce the time to train for the new task? (Hint: not a exact example like CNN.) <please input your answer>",
+                "slide": 14,
+                "correct_answer": "The original task and the applied task have some common features"
+            },
+            "q7": {
+                "contents": "What is the name of the neural network that can generate new examples of what it has learned but has not yet seen? <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Generative model"
+            },
+            "q8": {
+                "contents": "What are names of the two smaller models in the the neural network that can generate examples of what it has learned but has not yet seen <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Generator/Discriminator"
+            },
+            "q9": {
+                "contents": "How many layers does the cortex of the human big brain have? <please input your answer>",
+                "slide": 20,
+                "correct_answer": "Six"
+            }
+        },
+        "lecture 12": {
+            "q1": {
+                "contents": "To help biologists to understand the vast amount of data, AI can generate a knowledge graph. Which is a helpful scheme to build such knowledge? <please select the best answer> A. Reinforcement learning B. Supervised learning C. Unsupervised learning D. Few-shot learning",
+                "slide": 4,
+                "correct_answer": "C"
+            },
+            "q2": {
+                "contents": "Considering the given example, which one of the following opinions correctly describes the entity and related information? Example: SpaceX is an aerospace manufacturer and space transport services company headquartered in California. It was founded in 2002 by entrepreneur and investor Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. <please select the best answer> A. Entrepreneur (“Elon Musk”, “SpaceX”, “California”) B. Entrepreneur (“Elon Musk”, “California”, “2002”) C. Company (“SpaceX”, “California”, “Elon Musk”) D. Company (“SpaceX”, “Mars”, “Elon Musk”)",
+                "slide": 5,
+                "correct_answer": "C"
+            },
+            "q3": {
+                "contents": "Which one of the following methods is suitable for robots that work on Mars to achieve autonomousness? <please select the best answer> A. Spike neural networks B. Q-learning C. K-nearest neighbors D. Recurrent neural networks",
+                "slide": 7,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "What should we notice when we are faced with AI-related news? <please input your answer>",
+                "slide": 9,
+                "correct_answer": "We should read with caution because a fair amount of hype is often involved"
+            },
+            "q5": {
+                "contents": "What is the basic unit of memory in quantum computers? <please input your answer>",
+                "slide": 14,
+                "correct_answer": "Quantum bit/Qubit"
+            },
+            "q6": {
+                "contents": "Why do quantum computers outperform existing traditional computers in problems related to a large number of combinations? <please input your answer>",
+                "slide": 14,
+                "correct_answer": "Qubits can represent combinations simultaneously."
+            },
+            "q7": {
+                "contents": "What is the reason that development in brain-AI communication takes a long time? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "We must do more research on the human brain side"
+            },
+            "q8": {
+                "contents": "Which of the following best describes artificial general intelligence (AGI)? <please select the best answer> A. Computer programs that experience sentience or consciousness. B. Any program that is designed to solve exactly one problem. C. A computer agent with the ability to sense and the ability to act. D. An intelligent agent to learn any task that a human being can.",
+                "slide": 15,
+                "correct_answer": "D"
+            },
+            "q9": {
+                "contents": "What is the most significant difference between spike neural networks and traditional neural networks? <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Spike neurons take as input spikes while tradition neurons take as input continuous value"
+            },
+            "q10": {
+                "contents": "Which of the following descriptions about developing AI with caution is incorrect? <please select the best answer> A. Autonomous driving has safety issues related to the measurement of doing well and liability. B. With more sensitive sensors and more autonomous control, robots are sure to have personalities and consciousness at some point. C. Stephen Hawking, Elon Musk and Bill Gates have warned that AI may spell the end to human intelligence. D. We should be smart enough to use AI and wise enough to plan our future so that using AI will enrich our lives.",
+                "slide": 19,
+                "correct_answer": "B"
+            }
+        }
+    },
+    "elementary school": {
+        "lecture 1": {
+            "q1": {
+                "contents": "Is this statement correct or wrong? 'Machines can know tomorrow's weather only by logic' <please select the best answer> A. True B. False",
+                "slide": 9,
+                "correct_answer": "B"
+            },
+            "q2": {
+                "contents": "Is this statement correct or wrong? 'A neuron learns by changing the connection weight to a synaptic weight' <please select the best answer> A. True B. False",
+                "slide": 15,
+                "correct_answer": "A"
+            },
+            "q3": {
+                "contents": "Which of the following two concepts means 'learning by generating rules from known facts'? <please select the best answer> A. Deduction B. Induction",
+                "slide": 8,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "Which of the three ways of learning requires all input data to be paired with correct answers? <please select the best answer> A. Supervised learning B. Unsupervised learning C. Reinforcement learning",
+                "slide": 4,
+                "correct_answer": "A"
+            },
+            "q5": {
+                "contents": "Which of the three ways of learning is sometimes the only way we can use? <please select the best answer> A. Supervised learning B. Unsupervised learning C. Reinforcement learning",
+                "slide": 18,
+                "correct_answer": "C"
+            },
+            "q6": {
+                "contents": "Which of the three ways of learning is like learning without a teacher? <please select the best answer> A. Supervised learning B. Unsupervised learning C. Reinforcement learning",
+                "slide": 19,
+                "correct_answer": "B"
+            },
+            "q7": {
+                "contents": "What are the three components of AI? <please input your answer>",
+                "slide": 2,
+                "correct_answer": "Logic, statistics, ANNs"
+            },
+            "q8": {
+                "contents": "The probability that the number of dice rolls is 1 is? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "1/6"
+            },
+            "q9": {
+                "contents": "What are the cells in the brain that are used for thinking called? <please input your answer>",
+                "slide": 18,
+                "correct_answer": "Neurons"
+            },
+            "q10": {
+                "contents": "The sum of three angles of any triangle is 180 degrees. A right triangle is a triangle. What can you conclude from these? <please input your answer>",
+                "slide": 9,
+                "correct_answer": "The sum of the three angles of a right triangle is 180 degrees"
+            }
+        },
+        "lecture 2": {
+            "q1": {
+                "contents": "The reticular theory was advocated by physician Camillo Golgi, who invented a groundbreaking method for observing the nervous system. <please select the best answer> True or False",
+                "slide": 4,
+                "correct_answer": "T"
+            },
+            "q2": {
+                "contents": "Frank Rosenblatt came up with the first learning theory. <please select the best answer> True or False",
+                "slide": 8,
+                "correct_answer": "F"
+            },
+            "q3": {
+                "contents": "The first neural networks winter is because of that training ANNs takes a lot of computation and computing power was limited in that era. <please select the best answer> True or False",
+                "slide": 10,
+                "correct_answer": "F"
+            },
+            "q4": {
+                "contents": "For the current state of ANNs, it is easy to interpret what ANNs are doing. <please select the best answer> True or False",
+                "slide": 17,
+                "correct_answer": "F"
+            },
+            "q5": {
+                "contents": "ANNs of the current state don't have a good generalization. <please select the best answer> True or False",
+                "slide": 18,
+                "correct_answer": "T"
+            },
+            "q6": {
+                "contents": "McCulloch and Pitts found neurons to be like the basic building block that can be used to build any complex logical circuits. <please select the best answer> True or False",
+                "slide": 7,
+                "correct_answer": "T"
+            },
+            "q7": {
+                "contents": "The backpropagation algorithm contributed to the end of the first neural network winter. <please select the best answer> True or False",
+                "slide": 12,
+                "correct_answer": "T"
+            },
+            "q8": {
+                "contents": "When two neurons get excited together, which one between them is increased? <please select the best answer> A. the input B. the output C. the connection weight",
+                "slide": 8,
+                "correct_answer": "C"
+            },
+            "q9": {
+                "contents": "For an AND logic gate, if the inputs are '0' and '1', then the output is? For an OR logic gate, if the inputs are '0' and '1', then the output is? <please input your answer>",
+                "slide": 6,
+                "correct_answer": "0, 1"
+            }
+        },
+        "lecture 3": {
+            "q1": {
+                "contents": "Which of the following learning methods involves learning from a teacher? <please select the answer> A. Unsupervised learning B. Supervised learning C. Reinforcement learning",
+                "slide": 2,
+                "correct_answer": "BC"
+            },
+            "q2": {
+                "contents": "Which of the following options are required to determine the change of one connection in the delta rule (select multiple answers)? <please select the answer> A. learning constant B. desired change C. input D. connection weight",
+                "slide": 5,
+                "correct_answer": "ABC"
+            },
+            "q3": {
+                "contents": "If the desired change is positive, and the input is -1, will the weight decrease or increase? <please select the best answer> A. decrease B. increase",
+                "slide": 12,
+                "correct_answer": "A"
+            },
+            "q4": {
+                "contents": "If the desired change is negative, and the input is -2, will the weight decrease or increase? <please select the best answer> A. decrease B. increase",
+                "slide": 12,
+                "correct_answer": "B"
+            },
+            "q5": {
+                "contents": "If the input of a single-layer ANN model is 1,0,1; and the weight of inputs is 1, 2, 3; what would the output of the single-layer ANN model be? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "4"
+            },
+            "q6": {
+                "contents": "If the target output is 5 and the computed output is 3, what is the desired change? <please input your answer>",
+                "slide": 5,
+                "correct_answer": "2"
+            },
+            "q7": {
+                "contents": "Let the learning constant be 2, the desired change to be 3, and the input to be 1, what will the change of weight be? <please select the best answer> A. 2 B. 3 C. 5 D. 6",
+                "slide": 5,
+                "correct_answer": "D"
+            },
+            "q8": {
+                "contents": "If the inner state is 1, then after the ReLU (Rectified Linear Unit), what will the output be? <please select the best answer> A. 2 B. 0 C. 1",
+                "slide": 21,
+                "correct_answer": "C"
+            },
+            "q9": {
+                "contents": "If there is more than one layer of artificial neurons, does the delta rule still work? <please select the best answer> A. Yes B. No",
+                "slide": 5,
+                "correct_answer": "B"
+            },
+            "q10": {
+                "contents": "If supervised learning works, will the weight become smaller or bigger? <please select the best answer> A. smaller B. bigger",
+                "slide": 22,
+                "correct_answer": "A"
+            },
+            "q11": {
+                "contents": "After many processes of learning, what value does the output of the 'x' artificial neuron in response to 'x' get closer to? <please select the best answer> A. 1.0 B. 0.0 C. 1.5 D. -1.0",
+                "slide": 16,
+                "correct_answer": "A"
+            },
+            "q12": {
+                "contents": "If the error, connection weight, and contribution factor of the output layer neuron are 0.80, 0.01, and 1 respectively, what is the error attributed to the middle layer neuron? <please input your answer>",
+                "slide": 21,
+                "correct_answer": "0.008"
+            }
+        },
+        "lecture 4": {
+            "q1": {
+                "contents": "What do humans use to classify objects, for instance, pictures of fruits? <please input your answer>",
+                "slide": 3,
+                "correct_answer": "features"
+            },
+            "q2": {
+                "contents": "The picture below shows a decision tree, please list three kinds of elements of a decision tree? And please give examples of each node type in this decision tree? Picture: decision tree of weather <please input your answer>",
+                "slide": 5,
+                "correct_answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)"
+            },
+            "q3": {
+                "contents": "In this form below, which features can we select to decide whether people enjoy tennis? <please select the answer> A. Outlook B. Temperature C. Humidity D. Wind; Form: table of features and tennis enjoyment",
+                "slide": 6,
+                "correct_answer": "AB"
+            },
+            "q4": {
+                "contents": "In the I-Nearest-Neighbor method, how should we classify a new example? <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Label x with the label of the closest example to x"
+            },
+            "q5": {
+                "contents": "In this image about the process of KNN algorithm, which cluster should Xj be classified to? <please select the best answer> A. Red B. Green C. Blue; Image: KNN algorithm graph",
+                "slide": 14,
+                "correct_answer": "A"
+            },
+            "q6": {
+                "contents": "Does the performance of the KNN algorithm always get better as k increases? <please select the best answer> A. Yes B. No",
+                "slide": 18,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 5": {
+            "q1": {
+                "contents": "What is the data given during supervised learning but not in unsupervised learning? <please select the best answer> A. Input B. Connection weight C. Desirable output",
+                "slide": 3,
+                "correct_answer": "C"
+            },
+            "q2": {
+                "contents": "If the unsupervised ANNs that are given images of apples and images of oranges learn to group them into apples and oranges, which feature is useful? <please select the best answer> A. Colors B. Round C. Shiny",
+                "slide": 7,
+                "correct_answer": "A"
+            },
+            "q3": {
+                "contents": "Which person created Adaptive Resonance Theory 1 (ART1)? <please select the best answer> A. David Hubel B. Stephen Grossberg C. Teuvo Kohonen",
+                "slide": 10,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "True or false: 'In the application of unsupervised learning, unsupervised learning can determine what is illegal.' <please select the best answer> True or False",
+                "slide": 4,
+                "correct_answer": "False"
+            },
+            "q5": {
+                "contents": "In the process of using unsupervised learning to classify pictures of bananas and pictures of apples, which of the following features do you think is/are useful? Multiple answers can be chosen. <please select the answer> A. Color B. Shape C. Ear",
+                "slide": 8,
+                "correct_answer": "AB"
+            },
+            "q6": {
+                "contents": "In the process of SOFM learning, how will the radius change? <please select the best answer> A. Shrink B. Expand",
+                "slide": 15,
+                "correct_answer": "A"
+            },
+            "q7": {
+                "contents": "In the first step of the SOFM learning, why can we set the weight to be random without affecting the result? <please input your answer>",
+                "slide": 16,
+                "correct_answer": "The initial neighbor size will cover the entire plane."
+            },
+            "q8": {
+                "contents": "How can an SOFM place similar inputs? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "Similar inputs are placed in nearby locations."
+            },
+            "q9": {
+                "contents": "In an SOFM, what happens to the map if one kind of input is given more frequently than others? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "The corresponding area becomes larger."
+            },
+            "q10": {
+                "contents": "Please give an example of a self-organized structure. <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Primary sensory area, or primary visual cortex"
+            }
+        },
+        "lecture 6": {
+            "q1": {
+                "contents": "In an ART network, resonance is introduced to realize stable category formation. Resonance is established between which two layers? <please select the answer> A. Input layer B. Interface layer C. Category layer",
+                "slide": 6,
+                "correct_answer": "BC"
+            },
+            "q2": {
+                "contents": "In an ART network, the input layer sends signals to the interface layer through ____. <please select the best answer> A. one-to-one connections B. full connections",
+                "slide": 6,
+                "correct_answer": "A"
+            },
+            "q3": {
+                "contents": "In an ART network, the interface layer activates the category layer through ____. <please select the best answer> A. one-to-one connections B. full connections",
+                "slide": 6,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "Please write another name for “grouping” in unsupervised learning. <please input your answer>",
+                "slide": 3,
+                "correct_answer": "cluster/classification"
+            },
+            "q5": {
+                "contents": "Which person created Adaptive resonance theory1 (ART1)? <please select the best answer> A. David Hubel B. Stephen Grossberg C. Teuvo Kohonen",
+                "slide": 4,
+                "correct_answer": "B"
+            },
+            "q6": {
+                "contents": "The unsupervised ANN that can compress usually has a middle layer that has a much ____ number of neurons. <please select the best answer> A. larger B. smaller",
+                "slide": 16,
+                "correct_answer": "B"
+            },
+            "q7": {
+                "contents": "True or False: The k center points are selected from sample points. <please select the best answer> True or False",
+                "slide": 9,
+                "correct_answer": "F"
+            },
+            "q8": {
+                "contents": "True or False: The clustering of K-means is that for each sample point, find the closest center point to it. <please select the best answer> True or False",
+                "slide": 10,
+                "correct_answer": "T"
+            },
+            "q9": {
+                "contents": "True or False: After each clustering, there is no need to recalculate the center points. <please select the best answer> True or False",
+                "slide": 12,
+                "correct_answer": "F"
+            },
+            "q10": {
+                "contents": "What is the end condition of the K-means algorithm? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "The categories of sample points before and after the clustering are the same"
+            }
+        },
+        "lecture 7": {
+            "q1": {
+                "contents": "True or False: Reinforcement learning gets inputs as well as produces outputs? <please select the best answer> A. True   B. False",
+                "slide": 5,
+                "correct_answer": "A"
+            },
+            "q2": {
+                "contents": "Which of the following fields is the origin of the concept of reinforcement learning? <please select the best answer> A. Artificial  intelligence B. K-12 Education C. Psychological science D. Electric engineering",
+                "slide": 6,
+                "correct_answer": "C"
+            },
+            "q3": {
+                "contents": "In reinforcement learning, which two kinds of response does the agent get from its environment? <please select the best answer> A. Action, Reward B. Value, State C. Action, Value D. State, Reward",
+                "slide": 5,
+                "correct_answer": "D"
+            },
+            "q4": {
+                "contents": "Please select one of the following which falls into the framework of reinforcement learning. <please select the best answer> A. A computer calculates the digits of π, a mathematical constant which is close to 3.14. B. A neural network learns to distinguish images with known categories as cars or bicycles. C. An autonomous car tries to adapt to changing road conditions without causing accidents. D. A software collects user information and provides personalized recommendations automatically.",
+                "slide": 4,
+                "correct_answer": "C"
+            },
+            "q5": {
+                "contents": "Which of the following best describes the jobs suitable for learning methods that fall into the category of reinforcement learning? <please select the best answer> A. Reinforcement learning is good at clustering data without help from humans. B. Reinforcement learning is good at producing a series of actions to achieve the goal. C. Reinforcement learning is good at recognizing the item in a given image D. Reinforcement learning is good at compressing data and filtering out noise in data.",
+                "slide": 4,
+                "correct_answer": "B"
+            },
+            "q6": {
+                "contents": "In the game Pac-Man, the pac-man aims to eat as many beans in the maze as possible without getting caught by the ghosts (blue and pink avatars in the picture). A picture of the game Pac-Man. What is the agent of this game? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "pac-man"
+            },
+            "q7": {
+                "contents": "In the game Pac-Man, the pac-man aims to eat as many beans in the maze as possible without getting caught by the ghosts (blue and pink avatars in the picture). A picture of the game Pac-Man. What is the state of this game? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "location"
+            },
+            "q8": {
+                "contents": "If the value (V) in the current state is only indicated by the current reward (r), what is the relationship between them if we consider the variation of reward (r)? <please select the best answer> A. V = r B. V = V_old + 0.1 * (r - V_old) C. V = 0.1 * (r + 0.5 * V_next) D. V = V_old + 0.1 * ((r + 0.5 * V_next) - V_old)",
+                "slide": 17,
+                "correct_answer": "B"
+            },
+            "q9": {
+                "contents": "Which of the following options best defines the value of a given state from the environment? <please select the best answer> A. The value is the immediate reward the agent receives from the environment. B. The value is the association between what action to take given the observation. C. The value is the place within which the reinforcement learning agent operates. D. The value is the best expected total reward an agent will receive given a state.",
+                "slide": 14,
+                "correct_answer": "D"
+            },
+            "q10": {
+                "contents": "What can reinforcement learning use when an ANN is not required because of the limited number of states and actions? <please input your answer>",
+                "slide": 19,
+                "correct_answer": "A table/lookup dictionary"
+            },
+            "q11": {
+                "contents": "If a problem or a game has a lot of states, like the Go game, then we will need a neural network. What relationship do we expect the neural network to capture? <please select the best answer> A. The reward an agent receive after action  B. The value of a given state of the environment C. The action to take under a state of the environment D. The next state of the environment after agent takes an action",
+                "slide": 19,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 8": {
+            "q1": {
+                "contents": "True or False: The “reward” in the V-Learning means the total reward that an agent can expect to collect from that state and onwards into the future. <please select the best answer> A. True   B. False",
+                "slide": 3,
+                "correct_answer": "B"
+            },
+            "q2": {
+                "contents": "Both V-learning and Q-learning determine how good the new state is , but Q-learning learns the evaluation specific to something in addition to the state. What is it? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Action"
+            },
+            "q3": {
+                "contents": "Q-Table is the main aim of steps of Q-Learning. Q-table records the long rewards for? <please select the best answer> A. different actions B. different states C. different actions taken in each state",
+                "slide": 7,
+                "correct_answer": "C"
+            },
+            "q4": {
+                "contents": "If the value in the current state is only indicated by the current reward, which of these formulas should we use to calculate Q value? <please select the best answer> A. Q=r B. Q_new = Q_old + 0.1*(r-Q_old)",
+                "slide": 9,
+                "correct_answer": "A"
+            },
+            "q5": {
+                "contents": "The Society of Automotive Engineers (SAE) currently defines 6 levels of driving automation. Please describe the main difference between Level 0-2 and Level 3-5? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment."
+            },
+            "q6": {
+                "contents": "Can you name one issue or challenge that involves autonomous cars? <please input your answer>",
+                "slide": 20,
+                "correct_answer": "The responsibility for crashes or something else that applies or some else"
+            },
+            "q7": {
+                "contents": "Autonomous cars are under the framework. Please list some kinds of “environments” and “actions” in the situation of autonomous cars? <please input your answer>",
+                "slide": 16,
+                "correct_answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left"
+            },
+            "q8": {
+                "contents": "Which kind of sensors bounce pulses of light off the car’s surroundings to measure distances? <please select the best answer> A. Radar sensors B. Video cameras C. Lidar sensors D. Ultrasonic sensors",
+                "slide": 18,
+                "correct_answer": "C"
+            },
+            "q9": {
+                "contents": "An agent is at state (1,1), and the Q-table is as follows. Which of the actions should the agent take? Content of Q-table: The rewards of action going right/left/up/down at state (1,1) are 10,25,-10,30 respectively. The rewards of action going right/left/up/down at state (1,2) are 20,-10,15,25 respectively. The rewards of action going right/left/up/down at state (2,1) are 30,10,15,-10 respectively. The rewards of action going right/left/up/down at state (2,2) are 25,30,10,-10 respectively. <please select the best answer> A. going right B. going left C. going up D. going down",
+                "slide": 4,
+                "correct_answer": "D"
+            },
+            "q10": {
+                "contents": "About how to choose action in the initial state, which of the approaches aim to collect the most reward you already know about? <please select the best answer> A. Exploration   B. Exploitation",
+                "slide": 11,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 9": {
+            "q1": {
+                "contents": "What is the first main component of a virtual assistant? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Speech recognition"
+            },
+            "q2": {
+                "contents": "What is the last main component of a virtual assistant? <please input your answer>",
+                "slide": 20,
+                "correct_answer": "Speech generation"
+            },
+            "q3": {
+                "contents": "Please cite a component of voice-controlled assistant that it needs for normal work. <please input your answer>",
+                "slide": 4,
+                "correct_answer": "Linguistic analysis / Database / Web content retrieval"
+            },
+            "q4": {
+                "contents": "Is the accuracy of 95% enough for voice recognition? <please input your answer>",
+                "slide": 6,
+                "correct_answer": "No"
+            },
+            "q5": {
+                "contents": "How are the words represented in an ANN? <please input your answer>",
+                "slide": 10,
+                "correct_answer": "Assigning different neurons to different words"
+            },
+            "q6": {
+                "contents": "Take five words {Cats, Dogs, bark, meow, eat} Take three sentences, “Dogs bark” “Cats eat” “Dogs eat” How to express the words after the “Dogs”? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "(0,0,1,0,1)"
+            },
+            "q7": {
+                "contents": "What does an RNN have that a simple three-layer neural network doesn’t have? <please input your answer>",
+                "slide": 14,
+                "correct_answer": "A loop"
+            },
+            "q8": {
+                "contents": "What should we do when we want to train an RNN? <please input your answer>",
+                "slide": 15,
+                "correct_answer": "Unfolding"
+            },
+            "q9": {
+                "contents": "What does LSTM stand for? <please input your answer>",
+                "slide": 22,
+                "correct_answer": "Long Short-Term Memory"
+            },
+            "q10": {
+                "contents": "Compared to regular RNN, LSTM has better control over its three components. What are they? <please input your answer>",
+                "slide": 22,
+                "correct_answer": "The input, the short-term memory, and the output"
+            }
+        },
+        "lecture 10": {
+            "q1": {
+                "contents": "Which of the following options comprises digital images stored in computers? <please select the best answer> A. Pixels B. Frames C. Videos",
+                "slide": 8,
+                "correct_answer": "A"
+            },
+            "q2": {
+                "contents": "What are the three primary colors that computers use to represent other colors introduced in the lecture? <please select the best answer> A. Red, orange and yellow B. Red, green and purple C. Blue, orange and purple D. Red, green and blue",
+                "slide": 9,
+                "correct_answer": "D"
+            },
+            "q3": {
+                "contents": "The CNN is a method can be classified as: <please select the best answer> A. Reinforcement learning B. Unsupervised learning C. Supervised learning D. Federated learning",
+                "slide": 12,
+                "correct_answer": "C"
+            },
+            "q4": {
+                "contents": "To train a CNN that tells what is in a picture, what kind of pictures are needed? <please select the best answer> A. Pictures collected from the Internet without further information B. Pictures collected from the Internet with the data captured C. Images collected from the Internet with the geographic information D. Images collected from the Internet with category information",
+                "slide": 12,
+                "correct_answer": "D"
+            },
+            "q5": {
+                "contents": "What does the convolution layer do? <please select the best answer> A. It condenses the output of small regions into a single output B. It slides through the images and sums up the products of numbers C. It mimics the way neurons are only triggered by strong stimuli D. It tells what is in an image based on the information from hidden layers",
+                "slide": 14,
+                "correct_answer": "B"
+            },
+            "q6": {
+                "contents": "The output from a convolution layer is shown below. How many values will be changed after a ReLU layer is applied? The output from a convolution layer: 1, 7, 3, -2, -4, 5, 4, 1, 2. <please select the best answer> A. 0 B. 1 C. 2 D. 3",
+                "slide": 16,
+                "correct_answer": "C"
+            },
+            "q7": {
+                "contents": "The table below is a small region to apply a pooling operation. What is the correct result after max pooling? The region where max pooling is to be applied: 3,9,6,2. <please select the best answer> A. 4 B. 9 C. 10 D. 6",
+                "slide": 17,
+                "correct_answer": "B"
+            },
+            "q8": {
+                "contents": "The table below is a small region to apply a pooling operation. What is the correct result after an average pooling? The region where average pooling is to be applied: 3,9,6,2. <please select the best answer> A. 4 B. 5 C. 9 D. 6",
+                "slide": 17,
+                "correct_answer": "C"
+            },
+            "q9": {
+                "contents": "Recall the operations in a convolution layer. When given an image and a kernel as follows, which of the following is the correct answer for the missing value in the output from the layer? The image: [[1,1,1,1],[0,0,1,0],[0,1,0,0],[1,0,0,0]]. The kernel: [[0,1],[1,0]].The output. '_' is the missing value: [[1,1,2],[0,_,0],[2,0,0]] <please input your answer>",
+                "slide": 15,
+                "correct_answer": "2"
+            },
+            "q10": {
+                "contents": "If the correct category of an image is “train”, which of the following will be considered as correct under the definition of top-3 error? (From the left to the right, the probability of the answer decreases.) <please select the best answer> A. [“plane”, “motorcycle”, “bird”, “snake”, “train”] B. [“plane”, “motorcycle”, “train”, “bird”, “snake”] C. [“motorcycle”, “plane”, “snake”, “train”, “bird”] D. [“motorcycle”, “plane”, “car”, “bird”, “snake”]",
+                "slide": 19,
+                "correct_answer": "B"
+            }
+        },
+        "lecture 11": {
+            "q1": {
+                "contents": "Please give an example of mechanism that neurons do not have but neural networks have? <please input your answer>",
+                "slide": 4,
+                "correct_answer": "backpropagation"
+            },
+            "q2": {
+                "contents": "Why should we watch for developments in neuroscience? Please list one reason. <please input your answer>",
+                "slide": 5,
+                "correct_answer": "There are still areas where people perform much better than AI"
+            },
+            "q3": {
+                "contents": "In graphic models, what does nodes and lines represent? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "numbers/labels, the statistical relationships among them"
+            },
+            "q4": {
+                "contents": "What is the name of the method that enables ANNs to learn from limited examples? <please input your answer>",
+                "slide": 10,
+                "correct_answer": "few shot learning"
+            },
+            "q5": {
+                "contents": "In which condition can transfer learning reduce the time to train for the new task? (Hint: not a exact example like CNN.) <please input your answer>",
+                "slide": 13,
+                "correct_answer": "The original task and the applied task have some common features"
+            },
+            "q6": {
+                "contents": "What is the name of the neural network that can generate new examples of what it has learned but has not yet seen? <please input your answer>",
+                "slide": 11,
+                "correct_answer": "Generative model"
+            },
+            "q7": {
+                "contents": "What are names of the two smaller models in the the neural network that can generate examples of what it has learned but has not yet seen <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Generator/Discriminator"
+            },
+            "q8": {
+                "contents": "How many layers does the cortex of the human big brain have? <please input your answer>",
+                "slide": 17,
+                "correct_answer": "Six"
+            }
+        },
+        "lecture 12": {
+            "q1": {
+                "contents": "To help biologists to understand the vast amount of data, AI can generate a knowledge graph. Which is a helpful scheme to build such knowledge? <please select the best answer> A. Reinforcement learning B. Supervised learning C. Unsupervised learning D. Few-shot learning",
+                "slide": 4,
+                "correct_answer": "C"
+            },
+            "q2": {
+                "contents": "Considering the given example, which one of the following opinions correctly describes the entity and related information? Example: SpaceX is an aerospace manufacturer and space transport services company headquartered in California. It was founded in 2002 by entrepreneur and investor Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. <please select the best answer> A. Entrepreneur (“Elon Musk”, “SpaceX”, “California”) B. Entrepreneur (“Elon Musk”, “California”, “2002”) C. Company (“SpaceX”, “California”, “Elon Musk”) D. Company (“SpaceX”, “Mars”, “Elon Musk”)",
+                "slide": 5,
+                "correct_answer": "C"
+            },
+            "q3": {
+                "contents": "Which one of the following methods is suitable for robots that work on Mars to achieve autonomousness? <please select the best answer> A. Spike neural networks B. Q-learning C. K-nearest neighbors D. Recurrent neural networks",
+                "slide": 7,
+                "correct_answer": "B"
+            },
+            "q4": {
+                "contents": "What should we notice when we are faced with AI-related news? <please input your answer>",
+                "slide": 8,
+                "correct_answer": "We should read with caution because a fair amount of hype is often involved"
+            },
+            "q5": {
+                "contents": "What is the basic unit of memory in quantum computers? <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Quantum bit/Qubit"
+            },
+            "q6": {
+                "contents": "Why do quantum computers outperform existing traditional computers in problems related to a large number of combinations? <please input your answer>",
+                "slide": 13,
+                "correct_answer": "Qubits can represent combinations simultaneously."
+            },
+            "q7": {
+                "contents": "What is the reason that development in brain-AI communication takes a long time? <please input your answer>",
+                "slide": 10,
+                "correct_answer": "We must do more research on the human brain side"
+            },
+            "q8": {
+                "contents": "Which of the following best describes artificial general intelligence (AGI)? <please select the best answer> A. Computer programs that experience sentience or consciousness. B. Any program that is designed to solve exactly one problem. C. A computer agent with the ability to sense and the ability to act. D. An intelligent agent to learn any task that a human being can.",
+                "slide": 14,
+                "correct_answer": "D"
+            },
+            "q9": {
+                "contents": "What is the most significant difference between spike neural networks and traditional neural networks? <please input your answer>",
+                "slide": 12,
+                "correct_answer": "Spike neurons take as input spikes while tradition neurons take as input continuous value"
+            },
+            "q10": {
+                "contents": "Which of the following descriptions about developing AI with caution is incorrect? <please select the best answer> A. Autonomous driving has safety issues related to the measurement of doing well and liability. B. With more sensitive sensors and more autonomous control, robots are sure to have personalities and consciousness at some point. C. Stephen Hawking, Elon Musk and Bill Gates have warned that AI may spell the end to human intelligence. D. We should be smart enough to use AI and wise enough to plan our future so that using AI will enrich our lives.",
+                "slide": 18,
+                "correct_answer": "B"
+            }
+        }
+    }
+}
