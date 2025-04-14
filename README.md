@@ -5,7 +5,7 @@ For the codes to run experiments using our TIR module, please check the experime
 
 We're trying to import the TIR module as a python library, please check our [MiniHuman Library](https://github.com/songlinxu/MiniHuman-Toolkit/tree/main/minihuman/application/education/knowledge_tracing/RKT)
 
-## Cite Us
+## Please cite us if you find this repo is useful
 ```bibtex
 @article{xu2025classroom,
   title={Classroom Simulacra: Building Contextual Student Generative Agents in Online Education for Learning Behavioral Simulation},
